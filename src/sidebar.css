@@ -1,0 +1,54 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+  .sidebar1{
+    display:flex;
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+  }
+  .sidebar{
+    background:darkblue;
+    color:white;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  .top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+  }
+  .logo{
+    font-size: 35px;
+  }
+  .bars{
+    display: flex;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .link{
+    display: flex;
+    color:white;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background:rgb(106, 106, 231);
+    color:white;
+    transition: all 0.5s;
+  }
+  .active{
+    background: yellow;
+    color: #000;
+  }
+  .icon, .link_text{
+    font-size: 15px;
+    text-decoration: none;
+
+  }
